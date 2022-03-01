@@ -1,3 +1,6 @@
-import express from 'express'
-const app = express()
-console.log('Server Listen on part', 3000)
+import app from './app'
+import './database'
+
+app.listen(4000);
+
+console.log('Server Listen on port', 4000)
