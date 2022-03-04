@@ -6,5 +6,5 @@ mongoose.connect('mongodb://localhost/companydb',{
     useFindAndModify: true,
     useCreateIndex: true
 })
-    .then(db => console.log('Db is connected'))
+    .then(db => console.log('La base esta conectada'))
     .catch(error => console.log(error))
